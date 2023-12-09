@@ -1,0 +1,79 @@
+baseURL = "https://zooeywm.github.io/blog"
+title = "zooeywm's blog"
+paginate = 5
+theme = "PaperMod"
+enableInlineShortcodes = true
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+enableEmoji = true
+pygmentsUseClasses = true
+
+[minify]
+disableXML = true
+
+[languages.en]
+languageName = "English"
+weight = 1
+taxonomies = { category = "categories", tag = "tags", series = "series" }
+
+[[languages.en.menu.main]]
+name = "Timeline"
+url = "timeline"
+weight = 5
+
+[[languages.en.menu.main]]
+name = "Search"
+url = "search/"
+weight = 10
+
+[[languages.en.menu.main]]
+name = "Tags"
+url = "tags/"
+weight = 10
+
+[outputs]
+home = ["HTML", "JSON"]
+
+[params.homeInfoParams]
+Title = "zooeywm's blog"
+Content = """
+Welcome to my blog!
+"""
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/zooeywm"
+
+[params.assets]
+disableHLJS = true
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup.highlight]
+noClasses = false
+
+[privacy.vimeo]
+disabled = false
+simple = true
+
+[privacy.twitter]
+disabled = false
+enableDNT = true
+simple = true
+
+[privacy.instagram]
+disabled = false
+simple = true
+
+[privacy.youtube]
+disabled = false
+privacyEnhanced = true
+
+[services.instagram]
+disableInlineCSS = true
+
+[services.twitter]
+disableInlineCSS = true
