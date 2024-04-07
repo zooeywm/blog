@@ -1,7 +1,6 @@
 +++
 title = 'Rust Misc'
 date = 2023-12-09T23:40:15+08:00
-lastmod = 2023-12-10T15:29:30+08:00
 summary = "Rust miscellaneous"
 tags = ["Rust", "Programming"]
 +++

@@ -1,16 +1,15 @@
 +++
-title = 'rCore Learning'
+title = 'rCore Learning Ch1'
 date = 2024-03-24T09:00:00+08:00
-lastmod = 2024-03-24T09:00:00+08:00
-summary = "Learning rCore"
+summary = "Hello world on bare riscv64gc machine"
 tags = ["Rust", "Programming", "OS"]
 +++
 
-> Reference: [rCore-Tutorial-Book 第三版](https://rcore-os.cn/rCore-Tutorial-Book-v3/index.html)
+> Reference: [rCore-Tutorial-Book 3rd Edition](https://rcore-os.cn/rCore-Tutorial-Book-v3/index.html)
 
 > Repo url: <https://github.com/zooeywm/rcore-learning>
 
-No longer repeat the original content in the post, here I only record some gains and problems encountered in practice.
+# Target
 
 # On Install
 

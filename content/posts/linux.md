@@ -1,12 +1,11 @@
 +++
 title = 'Linux OS'
 date = 2024-04-03T14:40:15+08:00
-lastmod = 2024-04-03T14:40:15+08:00
 summary = "My Linux Configuration"
 tags = ["OS"]
 +++
 
-For the distribution, I choose archlinux.
+As for the distribution, I choose archlinux.
 
 # Installation and Post-Installation
 
@@ -39,8 +38,8 @@ For network management, I choose [NetworkManager](https://wiki.archlinux.org/tit
 8. pulseaudio `systemctl --user enable pipewire` with pamixer
 9. Resolve hyprland cannot resume after hibernate: add `resume` after `udev` in `/etc/mkinitcpio.conf`'s `HOOKS`
 10. clash-meta authorization - `sudo /usr/bin/setcap 'cap_net_admin,cap_net_bind_service=+ep' /usr/bin/clash-meta`
-11. Solve flickering on screen - lack of firmware <https://wiki.archlinux.org/title/Mkinitcpio#Possibly_missing_firmware_for_module_XXXX>
-12. obs-
+11. Fix flickering on screen - lack of firmware <https://wiki.archlinux.org/title/Mkinitcpio#Possibly_missing_firmware_for_module_XXXX>
+12. obs - screen-record: `pipewire-v4l2`, virtual camera: `v4l2loopback-dkms`.
 
 ## Pipewire
 

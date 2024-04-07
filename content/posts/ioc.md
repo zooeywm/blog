@@ -1,7 +1,6 @@
 +++
 title = 'Rust IOC'
 date = 2024-03-26T22:16:42+08:00
-lastmod = 2024-03-26T22:16:42+08:00
 summary = "Rust IOC implement"
 tags = ["Rust", "IOC"]
 +++
