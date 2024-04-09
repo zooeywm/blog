@@ -63,3 +63,7 @@ Pirewire doesn't implements connection logic, So we need Session Manager - WireP
 ## Polkit
 
 An App-level tookit for defining and handling the policy that allows unprivileged processes to speak to privileged processes.
+
+## Fcitx
+
+Fix fcitx on wayland with config: <https://fcitx-im.org/wiki/Using_Fcitx_5_on_Wayland#TL.3BDR_Do_we_still_need_XMODIFIERS.2C_GTK_IM_MODULE_and_QT_IM_MODULE.3F>
