@@ -38,7 +38,7 @@ For network management, I choose [NetworkManager](https://wiki.archlinux.org/tit
 8. pulseaudio `systemctl --user enable pipewire` with pamixer
 9. Resolve hyprland cannot resume after hibernate: add `resume` after `udev` in `/etc/mkinitcpio.conf`'s `HOOKS`
 10. clash-meta authorization - `sudo /usr/bin/setcap 'cap_net_admin,cap_net_bind_service=+ep' /usr/bin/clash-meta`
-11. Fix flickering on screen - lack of firmware <https://wiki.archlinux.org/title/Mkinitcpio#Possibly_missing_firmware_for_module_XXXX>
+11. Fix flickering on screen - <https://wiki.archlinux.org/title/AMDGPU#Screen_artifacts_and_frequency_problem> Set the udev.
 12. obs - screen-record: `pipewire-v4l2`, virtual camera: `v4l2loopback-dkms`.
 
 ## Pipewire
