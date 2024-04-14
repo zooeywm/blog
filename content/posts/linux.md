@@ -67,3 +67,7 @@ An App-level tookit for defining and handling the policy that allows unprivilege
 ## Fcitx
 
 Fix fcitx on wayland with config: <https://fcitx-im.org/wiki/Using_Fcitx_5_on_Wayland#TL.3BDR_Do_we_still_need_XMODIFIERS.2C_GTK_IM_MODULE_and_QT_IM_MODULE.3F>
+
+## HiDPI
+
+Don't use Hyprland monitor scale, though you can rescale xwayland apps with `force_zero_scaling=true` and set `QT` or `GTK` SCALE env, it will still cause some issues like when using satty to annotation pictures, the blur function will resolved to be weird.
