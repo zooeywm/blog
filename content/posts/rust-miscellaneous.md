@@ -35,3 +35,7 @@ fn test_judge_keyword() {
     assert!(result)
 }
 ```
+
+## Interior mutable
+
+https://doc.rust-lang.org/std/cell/index.html
