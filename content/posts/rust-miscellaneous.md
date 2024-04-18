@@ -39,3 +39,7 @@ fn test_judge_keyword() {
 ## Interior mutable
 
 https://doc.rust-lang.org/std/cell/index.html
+
+## Debug
+
+debug with gdb, you should type `break <bin-name>::main` first.
