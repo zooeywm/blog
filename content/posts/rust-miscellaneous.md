@@ -43,3 +43,5 @@ https://doc.rust-lang.org/std/cell/index.html
 ## Debug
 
 debug with gdb, you should type `break <bin-name>::main` first.
+
+[![asciicast](https://asciinema.org/a/wmTg5X6cAnoPhB0GmVup3Hwab.svg)](https://asciinema.org/a/wmTg5X6cAnoPhB0GmVup3Hwab)
