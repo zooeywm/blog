@@ -78,3 +78,7 @@ Don't use Hyprland monitor scale, though you can rescale xwayland apps with `for
 - MarkdownPreview Error: Cannot find module 'tslib': <https://github.com/iamcco/markdown-preview.nvim/issues/188#issuecomment-841356921> 
    
     ```z ~/.local/share/LazyVim/lazy/markdown-preview.nvim/app && npm install```
+
+## Clash verge conflict with ssh
+
+Add this `- DST-PORT,22,DIRECT` to clash profile.
