@@ -5,6 +5,25 @@ summary = "Rust IOC implement"
 tags = ["Rust", "IOC"]
 +++
 
+## Note
+
+In this architecture, the `Deps` will recursively take the intersection of all dependent fields Send and Sync restrictions, which means if you want to impl a function with Arc<Self> type, once a dependency in your container is `!Sync`, your Container will not pass the compile check
+
+for example: 
+
+``` rust
+impl<Deps> A for AImpl<Deps>
+where
+    Deps: AsRef<AImpl> + B + Send
+{
+    fn aa(self: Arc<Self>){
+        // your logic here
+    }
+}
+```
+
+Once your BImplState has any field that is `!Sync`, the whole code will not pass compile check, because the `Arc<Self>` means the `self` requires the whole `Deps` has `Send` and `Sync` trait bounds, but one of your field does not have `Sync` bound.
+
 ## Architecture
 
 > This inspiration is created by [TD-Sky](https://github.com/TD-Sky) who's inspired by [TOETOE55](https://github.com/TOETOE55), emphatically thanks to them!
